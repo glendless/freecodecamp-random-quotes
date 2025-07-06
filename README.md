@@ -10,7 +10,7 @@ This project fulfills the requirements for the [Random Quote Machine](https://ww
 
 _(It's recommended to add a screenshot or a GIF of your project in action here!)_
 
-![Project Screenshot](preview.png)
+![Project Screenshot](src/assets/preview.png)
 
 ---
 
@@ -36,42 +36,6 @@ _(It's recommended to add a screenshot or a GIF of your project in action here!)
 - **Icons**:
   - **[Lucide React](https://lucide.dev/)**
   - **[React Icons](https://react-icons.github.io/react-icons/)**
-
----
-
-## 🚀 Getting Started
-
-Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
-
-### Prerequisites
-
-Make sure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) (or yarn) installed on your system.
-
-### Installation
-
-1.  **Clone the repository:**
-
-    ```sh
-    git clone https://github.com/your-username/random-quote-machine.git
-    ```
-
-2.  **Navigate to the project directory:**
-
-    ```sh
-    cd random-quote-machine
-    ```
-
-3.  **Install the dependencies:**
-
-    ```sh
-    npm install
-    ```
-
-4.  **Run the development server:**
-    ```sh
-    npm run dev
-    ```
-    The application will be available at `http://localhost:5173` (or another port if 5173 is in use).
 
 ---
 
