@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* Reset and base styles */
+* {
+  box-sizing: border-box;
+}
+
+.bg-muted-1 {
+  background: #f7f2e9;
+}
+
+.bg-muted-2 {
+  background: #ac8435;
+}
+
+/* Main container */
+#quote-box {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  transition: all 1s ease;
+}
+
+.quote-wrapper {
+  width: 100%;
+  max-width: 48rem;
+}
+
+/* Quote card */
+.quote-card {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  border: none;
+  backdrop-filter: blur(4px);
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 0.5rem;
+}
+
+.quote-card-overlay {
+  position: absolute;
+  inset: 0;
+  background: url("/src/assets/file.svg") center/contain no-repeat;
+  background-size: cover;
+  opacity: 0.2; /* Adjust for desired overlay strength */
+  pointer-events: none;
+  z-index: 1;
+}
+
+.quote-content {
+  position: relative;
+  z-index: 2;
+  padding: 3rem;
+  text-align: center;
+}
+
+/* Quote icon */
+.quote-icon-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.quote-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+/* Quote text */
+.quote-text-container {
+  transition: all 0.3s ease;
+  margin-bottom: 2rem;
+}
+
+.quote-text-container.animating {
+  opacity: 0;
+  transform: scale(0.95);
+}
+
+.quote-text {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #1f2937;
+  line-height: 1.6;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  font-style: normal;
+}
+
+.quote-author {
+  font-size: 1.25rem;
+  color: #4b5563;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "PT Serif", serif;
+}
+.quote-profession {
+  font-size: 1.25rem;
+  color: #4b5563;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "PT Serif", serif;
+}
+
+/* Buttons */
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 1.5rem;
+}
+
+.new-quote-btn {
+  background-color: #1f2937;
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  transform: scale(1);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.new-quote-btn:hover:not(.disabled) {
+  background-color: #374151;
+  transform: scale(1.05);
+}
+
+.new-quote-btn.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.refresh-icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+.refresh-icon.spinning {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Social buttons */
+.social-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.social-btn {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: 1px solid #ac8435;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.twitter-btn:hover {
+  background-color: rgb(230, 226, 197);
+  border-color: rgb(232, 160, 16);
+}
+
+.instagram-btn:hover {
+  background-color: rgb(230, 226, 197);
+  border-color: rgb(232, 160, 16);
+}
+
+.social-icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+.twitter-icon {
+  color: #ac8435;
+}
+
+.instagram-icon {
+  color: #ac8435;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.footer-text {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+/* Responsive design */
+@media (min-width: 640px) {
+  .button-container {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 768px) {
+  .quote-content {
+    padding: 3rem;
+  }
+
+  .quote-text {
+    font-size: 1.875rem;
+  }
+
+  .quote-author {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .quote-text {
+    font-size: 2.25rem;
+  }
+}
+
+/* Mobile adjustments */
+@media (max-width: 639px) {
+  .quote-content {
+    padding: 2rem;
+  }
+
+  .quote-text {
+    font-size: 1.25rem;
+  }
+
+  .quote-author {
+    font-size: 1.125rem;
+  }
+
+  .quote-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}

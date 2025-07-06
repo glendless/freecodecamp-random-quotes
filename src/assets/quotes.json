@@ -1,0 +1,77 @@
+[
+  {
+    "text": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs",
+    "profession": "Software Engineer"
+  },
+  {
+    "text": "Life is what happens to you while you're busy making other plans.",
+    "author": "John Lennon",
+    "profession": "Singer"
+  },
+  {
+    "text": "The future belongs to those who believe in the beauty of their dreams.",
+    "author": "Eleanor Roosevelt",
+    "profession": "Politician"
+  },
+  {
+    "text": "It is during our darkest moments that we must focus to see the light.",
+    "author": "Aristotle",
+    "profession": "Philosopher"
+  },
+  {
+    "text": "The only impossible journey is the one you never begin.",
+    "author": "Tony Robbins",
+    "profession": "Entrepreneur"
+  },
+  {
+    "text": "In the end, we will remember not the words of our enemies, but the silence of our friends.",
+    "author": "Martin Luther King Jr.",
+    "profession": "Activist"
+  },
+  {
+    "text": "The way to get started is to quit talking and begin doing.",
+    "author": "Walt Disney",
+    "profession": "Artist"
+  },
+  {
+    "text": "Don't let yesterday take up too much of today.",
+    "author": "Will Rogers",
+    "profession": "Entrepreneur"
+  },
+  {
+    "text": "You learn more from failure than from success. Don't let it stop you. Failure builds character.",
+    "author": "Unknown",
+    "profession": "Entrepreneur"
+  },
+  {
+    "text": "If you are working on something that you really care about, you don't have to be pushed. The vision pulls you.",
+    "author": "Steve Jobs",
+    "profession": "Software Engineer"
+  },
+  {
+    "text": "Experience is a hard teacher because she gives the test first, the lesson afterwards.",
+    "author": "Vernon Law",
+    "profession": "Entrepreneur"
+  },
+  {
+    "text": "To live is the rarest thing in the world. Most people just exist.",
+    "author": "Oscar Wilde",
+    "profession": "Philosopher"
+  },
+  {
+    "text": "Innovation distinguishes between a leader and a follower.",
+    "author": "Steve Jobs",
+    "profession": "Software Engineer"
+  },
+  {
+    "text": "Life is 10% what happens to you and 90% how you react to it.",
+    "author": "Charles R. Swindoll",
+    "profession": "Entrepreneur"
+  },
+  {
+    "text": "The best time to plant a tree was 20 years ago. The second best time is now.",
+    "author": "Chinese Proverb",
+    "profession": "Philosopher"
+  }
+]
